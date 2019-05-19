@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7236649286758182768
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4082030184810997399}
+  - component: {fileID: 5837148339364181891}
+  m_Layer: 0
+  m_Name: PersistentGameManagers 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4082030184810997399
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7236649286758182768}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.9067187, y: -31.489445, z: 45.163548}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5837148339364181891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7236649286758182768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98705b8bceb9fd34cac2b1c354867fef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerPrefab: {fileID: 2699892997632469120, guid: 1f14b0aea2fe9e74a98f75e5eb182457,
+    type: 3}
+  EnemyLeaderPrefab: {fileID: 6779452556776898128, guid: 8058592b885003f458ab57cbcc64e82c,
+    type: 3}
+  ProjectilePrefab: {fileID: 66198506614102619, guid: e1c475b3d47662146979bc71ad30f17e,
+    type: 3}
+  ProjectilePool: {fileID: 0}
+  ProjectilePoolActive: {fileID: 0}
+  FriendlyProjectileMaterial: {fileID: 2100000, guid: 5198697efa1c41f459df2595a279d637,
+    type: 2}
+  EnemyProjectileMaterial: {fileID: 2100000, guid: b1b7be64999cd5b4dbb52b8d415c87c3,
+    type: 2}
+  FriendlyTrailMaterial: {fileID: 2100000, guid: cf961587df88667409767c44a9f4f0d0,
+    type: 2}
+  EnemyTrailMaterial: {fileID: 2100000, guid: 395b486a68d4c5147855b5ab53b4bb1b, type: 2}
